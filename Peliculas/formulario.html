@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de información de peliculas</title>
+</head>
+<body>
+    <h1>Información sobre la pelicula</h1>
+   <form action="procesadatos.php" method="get">
+    <div>
+        <label for="Nombre">Título original</label>
+        <input id="Nombre" name="Nombre" type="text">
+    </div>
+
+    <div>
+        <label for="Fecha">Año de lanzamiento</label>
+        <input id="Fecha" name="Fecha" type="date">
+    </div>
+
+    <div>
+        <label for="Duración">Duración</label>
+        <input id="Duración" name="Duración" type="time">
+    </div>
+        <label for="Pais">Pais</label>
+        <Select name="Pais" id="Pais">
+        <option value="ES">España</option>
+        <option value="EEUU">Estados unidos</option>
+        <option value="UK">Reino unido</option>
+        <option value="CH">China</option>
+        <option value="Otros">Otros..</option>
+    </Select>
+    <div>
+        <label for="Dirección">Dirección</label>
+        <input id="Dirección" name="Dirección" type="text">
+    </div>
+    <div>
+        <label for="guion">Guión</label>
+        <input id="guion" name="guion" type="text">
+    </div>
+    <div>
+        <label for="reparto">Actores</label>
+        <input id="reparto" name="reparto" type="text">
+    </div>
+    <div>
+        <label for="Musica">Musica</label>
+        <input id="Musica" name="Musica" type="text">
+    </div>
+    <div>
+        <label for="Fotografía">Imagen</label>
+        <input id="Fotografía" name="Fotografía" type="file">
+    </div>
+    <button>Enviar datos</button>
+   </form> 
+</body>
+</html>

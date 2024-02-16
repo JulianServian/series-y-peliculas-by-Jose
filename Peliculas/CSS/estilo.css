@@ -1,0 +1,118 @@
+
+#Menusuperior nav{
+display: flex; /*Pone items de menu en horizontal*/
+font-size: 20px;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: bold;
+}
+
+#Menusuperior nav ul li{
+display: inline-block;
+list-style: none;
+padding: 0px 20px;}
+
+#Menusuperior nav ul li a{
+text-decoration: none;
+color: white;}
+
+.Videos{
+    color: aqua;
+}
+body{
+    background-color: black;
+}
+header div nav h1{
+    color: white;
+    background-color: black;
+    border-color: white;
+    background-size: cover;
+    width: 210px;
+    height: 10px;
+    border-radius: 15px;
+}
+.portada_delante{
+    background-size: cover;
+    width: 5000px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.portada_delante img{
+    width: 1500px;
+    height: 500px;
+}
+.plataformas{
+border-radius: 8px;
+width: 210px;
+height: 290px;
+margin-top: 150px;
+margin-left: 180px;
+box-shadow: 0px 0px 30px #000;
+display: flex;
+grid-template-columns: repeat(
+    auto-fit,
+    minmax(150px, 1fr)
+);
+gap: 32px;
+}
+
+.Netflix{
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+.netflixpelis img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
+
+}
+.netflixpelis{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(150px, 1fr)
+    );
+    gap: 32px;
+}
+.HBO{
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;}
+
+.HBOpelis img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
+}
+.HBOpelis{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(150px, 1fr)
+    );
+    gap: 32px;
+}
+
+.disney{
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+}
+.disneypelis img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
+}
+.disneypelis{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+    minmax(150px, 1fr)
+    );
+    gap: 32px;
+}
